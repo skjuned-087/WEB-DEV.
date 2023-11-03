@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Exercise-5 </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header{
+            position: sticky;
+            top: 0px;
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            border: 1px solid rgb(168, 168, 168);
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 16px;
+            background-color: bisque;
+            /* */
+        }
+        nav ul li{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-right: 100px;
+            color: blue;
+        }
+        h1{
+            font-weight: 300;
+            font-size: 35px;
+            color:orchid;
+            background-color:royalblue;
+            text-decoration: underline;
+            margin: 10px;
+            border-radius: 15px;
+        }
+        body{
+            background-color: gray;
+        }
+        main{
+            background-color: blueviolet;
+        }
+        .boxes{
+            margin-top: 5px;
+            display: flex;
+            height: 70vh ;
+        }
+        .box{
+            overflow: auto;
+            margin:auto;
+            padding: 10px;
+            height: 80%;
+            width: 40%;
+            border :1px solid black;
+            border-radius: 15px;
+        }
+        .box h3{
+            text-align: center;
+            font-weight:500;
+            color: blue;
+            margin-bottom:5px ;
+        }
+        p{
+            font-weight: 300;
+            text-indent: 20px;
+        }
+        .box1{
+            background-color:antiquewhite;
+
+        }
+        .box2{
+            background-color: bisque;
+        }
+        ul{
+            list-style-position: inside;
+        }
+        img{
+            position: fixed;
+            left: 95vw;
+            bottom: 0px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        .my h3{
+            margin: 10px;
+            text-decoration: underline;
+            font-weight: 500;
+            color: mediumvioletred;
+        }
+        .my h4{
+            margin-left: 10px;
+            text-decoration: underline;
+            font-weight: 400;
+            color:snow;
+        }
+      footer{
+        font-size: 40px;
+        font-weight: 300;
+        margin: 10px;
+      }
+      footer p{
+        text-align: center;
+        font-size: 20px;
+      }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Read</li>
+                <li>Design</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Difference between Android dev. & Web dev.</h1>
+        <div class="boxes">
+            <div class=" box box1">
+                <h3>Web Dev.</h3>
+                 <p>Android is a Linux based mobile OS (Operating System) and the core of Android is based on Linux Kernel. It is developed by Google. It is opensource means developers can modify and customize the OS for each phone. Different brands of smartphones and tablets use this Android OS. Actually, the IT professionals who build Android supported applications are known as Android Developer. So, in simple Android developers develop applications for android devices.</p>
+               <p> Benefits of Android app developers:</p>
+                <ul>
+                    <li>Benefits of Android app developers:</li>
+                    <li>High paying career.</li>
+                    <li>Open source advantages.</li>
+                    <li>Easy to start learning.</li>
+                    <li>Work from anywhere.</li>
+                    <li>Job for the future.</li>
+                </ul><br>
+                <p>Challenges faced by Android Developers:</p>
+                <ul>
+                    <li>There is a lack of standard/uniform User Interface design rules.</li>
+                    <li>Presence of security flaws.</li>
+                    <li>Choosing a programming language between Java or Kotlin.</li>
+                    <li>Increasing visibility issues in the play store.</li>
+                    <li>API compatibility issues.</li>
+                    <li>Software and Hardware Fragmentation.</li>
+                    <li>Storage and battery capacity challenges.</li>
+                </ul>
+            </div>
+            <div class="box box2">
+            <h3>Android dev.</h3>    
+            <p>Web application in short Web app is an application software which is stored on the remote server and performs some specific functions required by the user. It is based on a client-server computer program. Web applications are accessible through a web browser and an active internet connection. Actually, the IT professionals who build various types of web applications are called Web Developer. So, in simple Web Developers develop web sites or web applications.</p>
+            <p>Benefits of Web developers:</p>
+            <ul>
+                <li>Always demand of web developers.</li>
+                <li>Decent Salary</li>
+                <li>Large community and support.</li>
+                <li>Work from anywhere.</li>
+                <li>Brings out creativity.</li>
+                <li>Fun and interesting.</li>
+            </ul>
+            <p>Challenges faced by Web Developers:</p>
+            <ul>
+                <li>Choosing the right platform and web development framework.</li>
+                <li>Security threats.</li>
+                <li>Developing a scalable and user-friendly product.</li>
+                <li>Maintaining high performance.</li>
+                <li>Doing market study and selecting a good programming language.</li>
+            </ul>
+            </div>
+        </div>
+    <div class="logo">
+        <img src="https://media.designrush.com/inspiration_images/131943/conversions/_1511619616_823_Studio-Science-preview.jpg"
+        alt="" width="100" height="90">
+    </div>
+    </main>
+
+        <div class="my">
+            <h3>Why I love Web Development</h3>
+            <p>Each distinct day gives an opportunity to learn, progress, and do the things that push you towards your goals or that make you satisfied at the end of the day. With this, if you want to step into the world of coding or more specifically, web development, then this article is for you. In the age of technology, you must have noticed that every popular business has its own websites that help the customer to locate the services you provide. Not only for business, but websites are also built for portfolios, blogs, funding, charities, events, and more. Without any doubt, a career in Web Development is indeed a great choice, especially in today’s technology-driven world.</p>
+            <p>In this article, we will explore the top reasons to learn web development. But before moving on, let’s take a look at what is web development? Web development is the process of creating a website for the Internet. And the most immeasurable part is that it can be learned by anyone. The beauty of web development is that we can put graphics, videos, images, and more on the website. But do you know that when web development was born, then we used to use hyperlinks and text only? Now, without taking much time, let’s get started:</p>
+            <h4>1. Easy To Learn</h4>
+            <p>You only need two things to start it, one is a good laptop and the other is an internet connection. Your journey starts with scripting languages like HTML, CSS, JavaScript, etc., and building good-looking responsive websites with them. After a few miles, you will explore various areas in it such as front-end and back-end web development. At some point, you will need the knowledge of programming, which you can easily develop by learning any relevant programming language like Java, Python, etc.</p>
+            <h4>2. Enhance Your Designing Skills</h4>
+            <p>Web development is not just about coding, it is also about website designing. Before going into the process of development, you have to think about its layout, colors, fonts, visual assets, and more. This means that you can develop or enhance your design skills. You can also enhance your creativity by learning from others’ website designs present over the internet. A good website has a clean-quality design.</p>
+            <h4>3. Develop Problem-Solving Skills</h4>
+            <p>It will give you the power to contribute to the world. You can develop or improve your problem-solving skills with it. If you have an idea in your mind that solves real-world problems it will help you to create it. As a computer science student, if you have developed anything which has a good effect on the real world then it will definitely help you in your future careers. You can also participate in hackathons where you can solve real-world problems and hone your skills.</p>
+            <h4>4. Open Source Contribution</h4>
+            <p>It will also give you the opportunity to contribute to open-source projects and participate in open-source programs such as GSoC, Outreachy, etc. You can interact with various open-source contributors and learn from them. Open-source contributions have a powerful impact on their own and when it comes to a tech career, it’s a feather in one’s cap if it’s on your resume.</p>
+            <h4>5. Earn Well From It</h4>
+            <p>Everyone likes to make money, right? Of course, this is one of the best skills that give you a chance to earn money. You can work as a freelance web developer or you can work for an organization as a web developer. You can even create your own start-up with it. As a student, you can also do internships in start-ups. You can create your own blog, online store, or whatever. And, the best part is that you can do all these things from home.</p>
+            
+        </div>
+        <footer>
+            Thanks for Visit My Layout design
+            <p>@Copyright &copy;</p>
+        </footer>
+</body>
+</html>
